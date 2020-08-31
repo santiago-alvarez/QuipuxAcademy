@@ -1,0 +1,152 @@
+body{
+    background-image: url(https://1.bp.blogspot.com/-PIEIq1SkhDk/X0g6w2YItJI/AAAAAAAAPLo/Gh-epgxhUTQKvO3XBgbytw_eyJMQt3JpQCLcBGAsYHQ/s16000/FondoEntretenimiento.jpg);
+    background-size: 400px;
+}
+
+#ProfileContainer{
+    background-color: #2BA84A;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+.ImgProfile{
+    width: 15vw;
+}
+#DirectivosContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#DirectivosGrid{
+    width: 100%;
+    height: max-content;
+    margin:0% 10% 0% 10%;
+    background-color: #2D3A3A;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr;
+}
+#ProfileCont{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#CardsCont{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#Grupo1{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#Grupo2{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.CardS{
+    background-size: 100%;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    cursor: pointer;
+    transition:all 700ms;
+    box-shadow: 15px 15px 20px black  !important;
+}
+.CardS:hover{
+    transition:all 700ms;
+    width: 12vw;
+    height: 12vw;
+    box-shadow: 10px 10px 10px black  !important; 
+}
+#DatosContainer{
+    background-color: lightgrey;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+
+#Direc1{
+    background-image: url(https://1.bp.blogspot.com/-L3l1J1Z3ytg/X0hNNESpzuI/AAAAAAAAPME/3V8A1tELyXEyZw5XJaGn3A3HxnYTFQ1cACLcBGAsYHQ/s16000/Estudiantes.png);
+}
+#Direc2{
+    background-image: url(https://1.bp.blogspot.com/-zTYMDm4_vuk/X0ioVfB0ccI/AAAAAAAAPNY/Y0Ir1KWfCLUKgQw6dFWZct0qz84e-GKfACLcBGAsYHQ/s16000/Mestros.png);
+}
+#Direc3{
+    background-image: url(https://1.bp.blogspot.com/-fzuKkHYNNq8/X0i-8mrociI/AAAAAAAAPOI/QD6HCg571wcMTe5C9Rz8-vTDZzNCyey8wCLcBGAsYHQ/s16000/Grupos.png);
+}
+#Direc4{
+    background-image: url(https://1.bp.blogspot.com/-uMbl2HbB-W0/X0ni-gTOYbI/AAAAAAAAPOs/m-VG-q_myzkjtpV5krfPl3sRb89RWNYBQCLcBGAsYHQ/s16000/Materias.png);
+}
+#Direc6{
+    background-image: url(https://1.bp.blogspot.com/-eyYlF8wuK8Y/X0p_2RuwXqI/AAAAAAAAPPE/miu1Do_ZFEww7Ig0R9AH7Lq45E1iUGdsACLcBGAsYHQ/s16000/A%25C3%25B1o.png);
+}
+#Direc5{
+    background-image: url(https://1.bp.blogspot.com/-j9GuS1f5RHg/X0p_2nWpkpI/AAAAAAAAPPI/HQL-8Zt6fWkqgB2ogQcAmhUKFqu3Qn6CACLcBGAsYHQ/s2048/Horarios.png);
+}
+@media(max-width: 600px){
+    #CardsCont{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80vh;
+    }
+    #Grupo1{
+        flex-flow: column;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #Grupo2{
+        flex-flow: column;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    
+    .CardS{
+        width: 18vh;
+        height: 18vh;
+
+    }
+    .ImgProfile{
+        margin:0 0 0 3px;
+        width: 10vh;
+    }
+    .Pprofile{
+        margin:0 3px 0 3px;
+    }
+    #DirectivosContainer{
+        display: block;
+    }
+    #ProfileContainer{
+        height: 20vh;
+        flex-flow: initial;
+    }
+    #DirectivosGrid{
+        margin:0;
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content max-content;
+    }
+    #ProfileCont{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #CardsCont{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+}
+
+@media(max-width: 560px){
+    .button2{
+        font-size: 12px;
+    }
+}

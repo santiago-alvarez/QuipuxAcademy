@@ -1,0 +1,133 @@
+body{
+    margin:0;   
+}
+#Main1Container{
+    padding:1%;
+    margin: 0% 15% 0 15%;
+    background-color: rgb(0,0,0, 0.5);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#Actualizaciones{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-color: white;
+    border: 1px solid rgb(0,0,0, 0.9);
+    margin: 1vw;
+}
+#Agenda{
+    margin: 1vw;
+    background-color: white;
+    border: 1px solid rgb(0,0,0, 0.9);
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.Agenda2{
+    margin:1vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#RedesSociales{
+    grid-row: 2/3;
+    grid-column: 1/3;
+    background-color: white;
+    border: 1px solid rgb(0,0,0, 0.9);
+    margin: 1vw;
+}
+#PdfImage{
+    margin-bottom: 1vw;
+    width: 20vw;
+    display: block;
+}
+.divTittle{
+    padding: 1px;
+    background-color: #248232;
+    text-align: center;
+}
+.title{
+    font-weight: bold;
+}
+#padre {
+    display: grid;
+    border: #242423 solid 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.Inline{
+    width: 15vw;
+}
+#redesContainer{
+    margin-top: 1.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.espacio {
+    display: inline-flex;
+    margin: 0;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#AJAAA {
+    display: flex;
+    height: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.b {
+    appearance: null;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 100%;
+    opacity: 70%;
+    border: 0px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+@media(max-width: 680px){
+    .Inline{
+        width: 25vw;
+    }
+    #redesContainer{
+        margin-top: 1.4vw;
+        margin-bottom: 1.4vw;
+    }
+    .Agenda2{
+        margin:15vw;
+    }
+    #PdfImage{
+        margin-bottom: 1vw;
+        width: 60vw;
+        display: block;
+    }
+    #Main1Container{
+        margin: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content 1fr max-content;
+    text-align: center;
+    }
+    .b {
+        margin: 5px;
+    }
+    #Actualizaciones{
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+    #Agenda{
+
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    #RedesSociales{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+}

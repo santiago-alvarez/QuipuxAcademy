@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+
+#Main3Container{
+    padding: 5% 1% 5% 1%;
+    margin: 0% 15% 0 15%;
+    background-color: #FCFFFC;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 30% 70%;
+}
+
+.top{
+    margin-top: 1vw;
+}

@@ -1,0 +1,236 @@
+#HeaderSisContainer{
+    display: flex;
+    padding: 1vw;
+    justify-content: space-between;
+    align-items: center;
+    width: 98vw - 10px;
+    height: max-content;
+    background-image: url(https://1.bp.blogspot.com/-i7tWX5R-Mjc/X0hriz8A2_I/AAAAAAAAPM0/yjRzmiFi1d4gdjGWWsguF7CMwPp82PQjQCLcBGAsYHQ/s16000/HeaderSisFondo.png);
+    background-size: 100% 100%;
+}
+.SelectR{
+width: 100px;
+height: 40px;
+font-family: 'Alata', sans-serif;
+font-weight: bold;
+margin: 0px 4px 0px 4px;
+}
+#ImgRMas{
+    background-image: url(https://image.flaticon.com/icons/svg/25/25668.svg);
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+}
+.ImgRMas{
+    width: 40px;
+    height: 40px;
+}
+.NameF{
+    text-align: center;
+    width: 300px;
+}
+.FiltrosREstudiante{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: lightgray;
+}
+.PChek{
+    color: white;
+}
+#RegistroEsContainer{
+    width: 98vw - 10px;
+    padding: 1vw;
+    height: max-content;
+    background-color: rgb(45, 58, 58, 0.8);   
+}
+
+#titleSisRContainer{
+    text-align: center;
+}
+
+#bContainer{
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-flow: column;
+}
+#Form{
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 96vw;
+    height: 60vh;
+}
+
+.DickBro{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+}
+#Form2{
+    display: flex;
+    padding: 2vw;
+    border-radius: 1vw;
+    margin:0 10% 0 10%;
+    background-color: #2D3A3A;
+    height: max-content;
+}
+#Form2_2{
+    display: flex;
+    justify-content: center;
+}
+.Form2_2_2{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.FiltrosREstudiante{
+    margin: 0 2vw 0 2vw;
+}
+
+#CardsContainerReEs{
+    margin: 2vw 0vw 2vw 0vw;
+}
+@media(max-width: 435px){
+
+}
+#Form2_21{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px + 2vw + 4vw;
+}
+#Cancelar{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: 100% 100%;
+    background-image: url(https://image.flaticon.com/icons/png/512/458/458594.png);
+}
+.REInput{
+    font-family: 'Alata', sans-serif;
+    font-weight: bold;
+    margin: 1vw;
+    height: 40px;
+    width: 200px;
+}
+#Algo_algo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MinMin{
+    width: 80px;
+}
+.Min{
+    width: 40px;
+    height: 40px;
+    font-family: 'Alata', sans-serif;
+    font-weight: bold;
+    margin: 0px 4px 0px 4px; 
+}
+.More{
+    width: 180px;
+    height: 40px;
+    font-family: 'Alata', sans-serif;
+    font-weight: bold;
+    margin: 0px 4px 0px 4px; 
+}
+@media(max-width: 450px){
+    #HeaderSisContainer{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 60% 40%;
+    }
+    .Chek{
+        display: none;
+    }
+    #titleQuipux{
+        font-size: 26px;
+    }
+    #titleSisRContainer{
+        grid-column: 1/2;
+        grid-row: 1/4;
+    }
+    #bContainer, #LogoSistema{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #bContainer{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    #LogoSistema{
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+
+}
+
+@media(max-width: 340px){
+    #Cancelar{
+        width: 25px;
+        height: 25px;
+    }
+    #titleQuipux{
+        font-size: 23px;
+    }
+    #SubtitleQuipux{
+        font-size: 17px;
+    }
+}
+@media(max-width: 780px){
+    .AñoInsF{
+        display: none;
+    }
+}
+@media(max-width:620px){
+    .REInput{
+        width: 100px;
+    }
+    .GrupoF{
+        display: none;
+    }
+   
+}
+@media(max-width:520px){
+    .GradoF{
+        display: none;
+    }
+}
+@media(max-width:430px){
+    .ImgRMas{
+        width: 25px;
+        height: 25px;
+    }
+    #ImgRMas{
+        width: 25px;
+        height: 25px;
+        background-size: 25px 25px;
+    }
+    .SelectR{
+        padding: 0;
+        font-size: 8px;
+        height: 25px;
+        width: 60px;
+        }
+        .Peque{
+            font-size: 10px;
+        }
+        .NameF{
+            text-align: center;
+            width:150px;
+        }
+}
